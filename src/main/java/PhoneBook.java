@@ -48,6 +48,7 @@ public class PhoneBook {
                     default:
                         System.out.println("You selected wrong item, try again");
                         showMenu();
+                        break;
                 }
             } catch (java.util.InputMismatchException e) {
                 System.out.println("Not correct item? try again");
